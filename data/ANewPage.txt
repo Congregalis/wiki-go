@@ -1,0 +1,2 @@
+This is a new page.\n
+Just for test.

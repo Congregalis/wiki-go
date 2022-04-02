@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://unpkg.com/papercss@1.8.3/dist/paper.min.css">
+  <title>{{.Title}}</title>
+</head>
+<style type="text/css">
+    html *{ margin:0 auto; padding:0 auto; text-align:center;}
+</style>
+<body>
+    <h1>{{.Title}}</h1>
+
+    <p>[<a href="/edit/{{.Title}}">edit</a>]</p>
+    
+    <div ><p style="text-align: left; width: 60%;">{{.Body | printf "%s"}}</p></div>
+</body>
+</html>
