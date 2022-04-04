@@ -41,7 +41,7 @@
 
 再
 
-`docker run -d -p 8010:8080 --name wiki-go congregalis/wiki-go`
+`docker run -d -p 8080:8080 --name wiki-go congregalis/wiki-go`
 
 访问 `http://localhost:8080/` 即可开始
 
